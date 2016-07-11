@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Faragments.StoperFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:00:00"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="middle"
+        android:allowUndo="false"
+        android:textSize="80dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:id="@+id/START"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/accent_material_light"
+        android:textSize="30dp"
+        android:onClick="Start" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/Stop"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:onClick="STOP" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:id="@+id/RESET"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textSize="30dp"
+        android:onClick="RESET" />
+</LinearLayout>

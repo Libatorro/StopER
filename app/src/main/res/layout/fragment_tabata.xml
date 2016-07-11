@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebastian.stoper.Faragments.TabataFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/button_Add_time"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="50dp"
+            android:textColor="#0cd50c"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="20:00"
+            android:id="@+id/textView2"
+            android:textSize="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/button_Less_time"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="50dp"
+            android:textColor="#ee2525"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/button_Add"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#0cd50c" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="8"
+            android:textSize="60dp"
+            android:padding="10dp"
+            android:singleLine="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/button_Minus"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ee2525" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:id="@+id/START_TABATA"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#28e916" />
+
+</LinearLayout>
